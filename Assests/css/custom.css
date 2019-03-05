@@ -1,0 +1,76 @@
+body{
+    
+    font-family: 'Indie Flower', cursive;
+
+    background: #BBD2C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background: #96854F;
+    color: wheat;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+li{
+    background: #5E9998;
+    height: 50px;
+    line-height: 50px;
+    color: wheat;
+}
+li:nth-child(2n)
+{
+    background: #9099A2;
+}
+
+span{
+    background:black;
+    height: 50px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;
+    transition: 0.3s linear;
+    opacity: 0;
+}
+
+li:hover span{
+    width: 50px;
+    opacity: 1.0;
+}
+
+input{
+    font-size: 20px;
+    width: 96%;
+    color:black;
+    padding: 10px 10px 10px 10px;
+}
+input:focus{
+    background: #fff;
+    border: 3px solid #5E9998;
+    outline: none;
+}
+.container{
+    width: 600px;
+    margin: 100px auto;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.5);
+}
+.fa-pencil-alt
+{
+    float: right;
+}
+
+.tamamlanmıs{
+    color: gray;
+    text-decoration: line-through;
+}
